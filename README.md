@@ -209,33 +209,35 @@ npm start -- --host=0.0.0.0
 
 ## 📸 项目截图展示
 
-### 1. 启动屏幕
-![启动屏幕](./screenshot/1.jpg)
-- 应用启动时的品牌化加载界面
-- 渐变背景配合弹跳动画效果
-
-### 2. 首页 - 库存列表
-![库存列表](./screenshot/2.jpg)
+### 1. 首页 - 库存列表（全部状态）
+![全部状态](./screenshot/1.jpg)
 - 展示所有库存物品的主页面
-- 顶部统计卡片显示关键指标
-- 支持按库存状态筛选（全部/有货/库存不足/缺货）
+- 顶部统计卡片显示关键指标（总物品数、总价值等）
+- 支持按库存状态筛选（全部/有货/货少/缺货/精选）
 
-### 3. 首页 - 库存列表（有货状态）
-![有货状态筛选](./screenshot/3.jpg)
-- 筛选显示有货的物品
+### 2. 首页 - 库存列表（有货状态）
+![有货状态](./screenshot/2.jpg)
+- 筛选显示所有有货的物品
 - 绿色状态条标识有货状态
+- 便于快速查看库存充足的物品
 
-### 4. 首页 - 库存列表（库存不足状态）
-![库存不足状态筛选](./screenshot/4.jpg)
+### 3. 首页 - 库存列表（货少状态）
+![货少状态](./screenshot/3.jpg)
 - 筛选显示库存不足的物品
-- 黄色状态条标识库存不足状态
+- 黄色状态条标识货少状态
 - 便于及时补货提醒
 
-### 5. 首页 - 库存列表（缺货状态）
-![缺货状态筛选](./screenshot/5.jpg)
+### 4. 首页 - 库存列表（缺货状态）
+![缺货状态](./screenshot/4.jpg)
 - 筛选显示缺货的物品
 - 红色状态条标识缺货状态
 - 支持快速识别需要采购的物品
+
+### 5. 首页 - 库存列表（精选状态）
+![精选状态](./screenshot/5.jpg)
+- 筛选显示标记为精选的物品
+- 金色星星标识精选物品
+- 便于快速查看重点管理的物品
 
 ### 6. 搜索页面
 ![搜索页面](./screenshot/6.jpg)
@@ -592,33 +594,35 @@ npm start -- --host=0.0.0.0
 
 ## 📸 Project Screenshots
 
-### 1. Splash Screen
-![Splash Screen](./screenshot/1.jpg)
-- Branded loading screen on app startup
-- Gradient background with bounce animation
+### 1. Home - Inventory List (All Status)
+![All Status](./screenshot/1.jpg)
+- Main page displaying all inventory items
+- Top statistics cards showing key metrics (total items, total value, etc.)
+- Support filtering by stock status (All/In Stock/Low Stock/Out of Stock/Featured)
 
-### 2. Home - Inventory List
-![Inventory List](./screenshot/2.jpg)
-- Main page showing all inventory items
-- Top statistics cards displaying key metrics
-- Filter by stock status (All/In Stock/Low Stock/Out of Stock)
-
-### 3. Home - In Stock Filter
-![In Stock Filter](./screenshot/3.jpg)
-- Filter showing only items in stock
+### 2. Home - In Stock Filter
+![In Stock](./screenshot/2.jpg)
+- Filter showing all items in stock
 - Green status bar indicates in-stock items
+- Quick view of well-stocked items
 
-### 4. Home - Low Stock Filter
-![Low Stock Filter](./screenshot/4.jpg)
+### 3. Home - Low Stock Filter
+![Low Stock](./screenshot/3.jpg)
 - Filter showing items with low stock
 - Yellow status bar indicates low-stock items
-- Helps with restocking reminders
+- Timely restocking reminders
 
-### 5. Home - Out of Stock Filter
-![Out of Stock Filter](./screenshot/5.jpg)
+### 4. Home - Out of Stock Filter
+![Out of Stock](./screenshot/4.jpg)
 - Filter showing out-of-stock items
 - Red status bar indicates out-of-stock items
 - Quick identification for purchasing needs
+
+### 5. Home - Featured Filter
+![Featured](./screenshot/5.jpg)
+- Filter showing featured items
+- Gold star badges indicate featured items
+- Quick view of priority-managed items
 
 ### 6. Search Page
 ![Search Page](./screenshot/6.jpg)
