@@ -1,0 +1,13 @@
+{
+  "/ArtGalley/ArtGalleyRESTful/": {
+    "target": "https://prog2005.it.scu.edu.au",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type"
+    }
+  }
+}
